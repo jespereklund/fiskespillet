@@ -1,0 +1,26 @@
+{
+  "name": "fish-matter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fish.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-dev": "nodemon fish.js",
+    "start": "lite-server",
+    "build": "babel src -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-preset-env": "^1.7.0",
+    "lite-server": "^2.6.1",
+    "matter-js": "^0.17.1",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
+    "babel-plugin-transform-class-properties": "^6.24.1"
+  }
+}
